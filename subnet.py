@@ -12,8 +12,8 @@ print(str)
 
 m = input('ENTER SUBDOMAIN EX.127.0.0.1/24 :: ')
 with open('ip.txt','w') as f:
-	for ip in ipaddress.IPv4Network(m):
-		f.write(str(ip)+'\n')
+	for xip in ipaddress.IPv4Network(m):
+		f.write(str(xip)+'\n')
 os.system('clear')		
 port = input('Which port you want to scann 443 or 80 ?\n')
 if port == '80':
