@@ -10,7 +10,7 @@ os.system('clear')
 os.system('figlet Subnet-S')
 print(xstr)
 
-with open("amazon.txt", "r") as f:
+with open("subnets.txt", "r") as f:
         ip = f.read().splitlines()
 with open('ip.txt','w') as f:
 	for line in ip:
