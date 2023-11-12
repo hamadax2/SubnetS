@@ -24,6 +24,3 @@ elif port == '443':
    os.system('bugscanner ip.txt --port 443 --method get --o hosts.txt')
 print('Saved in hosts.txt')   
 os.system("cat hosts.txt")
-    
-		
-		
