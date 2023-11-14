@@ -1,5 +1,9 @@
 # SubnetS
+
 Subnet. Scanner 
+Installation :
+run : setup.py
+
 HOW TO USE
 -- To scan a single subnet :
 run python subnet.py
