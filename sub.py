@@ -16,7 +16,7 @@ with open('ip.txt','w') as f:
                 for xip in ipaddress.IPv4Network(line):
                         f.write(str(xip)+'\n')
 os.system('clear')
-port = input('Which port you want to scann 443 or 80 ?\n')
+port = input('Which port you want to scann ?\n')
 os.system(f'bugscanner ip.txt --port {port} --method get --o hosts.txt')
 print('Saved in hosts.txt')
 os.system("cat hosts.txt")
